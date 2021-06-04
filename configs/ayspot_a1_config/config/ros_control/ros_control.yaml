@@ -1,0 +1,34 @@
+"":
+  joint_states_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+
+  joint_group_position_controller:
+      type: effort_controllers/JointTrajectoryController
+      joints:
+          - LF_HIP_rotate
+          - LF_THIGH_rotate
+          - LF_SHANK_rotate
+          - RF_HIP_rotate
+          - RF_THIGH_rotate
+          - RF_SHANK_rotate
+          - LH_HIP_rotate
+          - LH_THIGH_rotate
+          - LH_SHANK_rotate
+          - RH_HIP_rotate
+          - RH_THIGH_rotate
+          - RH_SHANK_rotate
+
+      gains:
+        LF_HIP_rotate : {p: 180, d: 0.9, i: 20}
+        LF_THIGH_rotate : {p: 180, d: 0.9, i: 20}
+        LF_SHANK_rotate : {p: 180, d: 0.9, i: 20}
+        RF_HIP_rotate : {p: 180, d: 0.9, i: 20}
+        RF_THIGH_rotate : {p: 180, d: 0.9, i: 20}
+        RF_SHANK_rotate : {p: 180, d: 0.9, i: 20}
+        LH_HIP_rotate : {p: 180, d: 0.9, i: 20}
+        LH_THIGH_rotate : {p: 180, d: 0.9, i: 20}
+        LH_SHANK_rotate : {p: 180, d: 0.9, i: 20}
+        RH_HIP_rotate : {p: 180, d: 0.9, i: 20}
+        RH_THIGH_rotate : {p: 180, d: 0.9, i: 20}
+        RH_SHANK_rotate : {p: 180, d: 0.9, i: 20}

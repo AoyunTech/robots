@@ -1,0 +1,23 @@
+left_front:
+  - LF_HIP_rotate
+  - LF_THIGH_rotate
+  - LF_SHANK_rotate
+  - LF_FOOT_rigid
+
+right_front:
+  - RF_HIP_rotate
+  - RF_THIGH_rotate
+  - RF_SHANK_rotate
+  - RF_FOOT_rigid
+
+left_hind:
+  - LH_HIP_rotate
+  - LH_THIGH_rotate
+  - LH_SHANK_rotate
+  - LH_FOOT_rigid
+
+right_hind:
+  - RH_HIP_rotate
+  - RH_THIGH_rotate
+  - RH_SHANK_rotate
+  - RH_FOOT_rigid
